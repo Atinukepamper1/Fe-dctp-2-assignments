@@ -1,0 +1,59 @@
+/* Body styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 10px 8px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  margin: 10px 4px;
+  border-collapse: collapse;
+  background: #4E03FC;
+  background: linear-gradient(to right bottom, #6F14F3, #9D26E6);
+  overflow-x: auto;
+}
+
+.Attendance-table th, .Attendance-table td {
+  padding: 10px;
+  text-align: start;
+  color: rgb(243, 236, 236);
+}
+
+.Attendance-table th {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 16px 4px;
+  cursor: pointer;
+}
+
+.Attendance-table td {
+  position: relative;
+}
+td {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+/* workers name styling */
+.name-cell {
+  font-weight: bold;
+}
+
+/* Attendance cell styles */
+.Attendance-cell {
+  cursor: pointer;
+  transition: opacity 0.5;
+}
+
+/* hover effect on columns */
+.Attendance-cell:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: opacity 0.7;
+}
+
+.Attendance-cell:active {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+
